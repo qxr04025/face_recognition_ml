@@ -5,6 +5,9 @@ __pycache__/
 # Jupyter Notebook
 .ipynb_checkpoints
 
+# pychram
+.idea/
+
 # dataset
 
 # models
