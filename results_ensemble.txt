@@ -1,0 +1,105 @@
+***************Results of DecisionTreeClassifie******************
+                   precision    recall  f1-score   support
+
+     Ariel Sharon       0.00      0.00      0.00        13
+     Colin Powell       0.39      0.27      0.32        60
+  Donald Rumsfeld       0.00      0.00      0.00        27
+    George W Bush       0.57      0.77      0.66       146
+Gerhard Schroeder       0.33      0.16      0.22        25
+      Hugo Chavez       0.00      0.00      0.00        15
+       Tony Blair       0.21      0.42      0.28        36
+
+      avg / total       0.38      0.46      0.41       322
+
+accuracy: 0.459627329193
+
+***************Results of BaggingClassifie******************
+                   precision    recall  f1-score   support
+
+     Ariel Sharon       0.50      0.15      0.24        13
+     Colin Powell       0.80      0.62      0.70        60
+  Donald Rumsfeld       0.86      0.44      0.59        27
+    George W Bush       0.66      0.95      0.78       146
+Gerhard Schroeder       0.55      0.44      0.49        25
+      Hugo Chavez       0.67      0.13      0.22        15
+       Tony Blair       0.58      0.39      0.47        36
+
+      avg / total       0.68      0.67      0.64       322
+
+accuracy: 0.673913043478
+
+***************Results of RandomForestClassifie******************
+                   precision    recall  f1-score   support
+
+     Ariel Sharon       1.00      0.08      0.14        13
+     Colin Powell       0.80      0.55      0.65        60
+  Donald Rumsfeld       0.75      0.11      0.19        27
+    George W Bush       0.54      0.99      0.69       146
+Gerhard Schroeder       0.00      0.00      0.00        25
+      Hugo Chavez       0.00      0.00      0.00        15
+       Tony Blair       0.57      0.11      0.19        36
+
+      avg / total       0.56      0.57      0.48       322
+
+accuracy: 0.574534161491
+
+***************Results of ExtraTreesClassifie******************
+                   precision    recall  f1-score   support
+
+     Ariel Sharon       1.00      0.15      0.27        13
+     Colin Powell       0.66      0.38      0.48        60
+  Donald Rumsfeld       1.00      0.07      0.14        27
+    George W Bush       0.53      0.99      0.69       146
+Gerhard Schroeder       0.60      0.12      0.20        25
+      Hugo Chavez       1.00      0.07      0.12        15
+       Tony Blair       1.00      0.08      0.15        36
+
+      avg / total       0.69      0.55      0.46       322
+
+accuracy: 0.552795031056
+
+***************Results of AdaBoostClassifie SAMME.R******************
+                   precision    recall  f1-score   support
+
+     Ariel Sharon       1.00      0.08      0.14        13
+     Colin Powell       0.63      0.48      0.55        60
+  Donald Rumsfeld       0.58      0.26      0.36        27
+    George W Bush       0.61      0.92      0.73       146
+Gerhard Schroeder       0.58      0.28      0.38        25
+      Hugo Chavez       1.00      0.07      0.12        15
+       Tony Blair       0.53      0.44      0.48        36
+
+      avg / total       0.63      0.61      0.56       322
+
+accuracy: 0.605590062112
+
+***************Results of AdaBoostClassifie SAMME******************
+                   precision    recall  f1-score   support
+
+     Ariel Sharon       0.78      0.54      0.64        13
+     Colin Powell       0.88      0.58      0.70        60
+  Donald Rumsfeld       0.62      0.37      0.47        27
+    George W Bush       0.71      0.94      0.81       146
+Gerhard Schroeder       0.63      0.48      0.55        25
+      Hugo Chavez       0.80      0.27      0.40        15
+       Tony Blair       0.64      0.69      0.67        36
+
+      avg / total       0.73      0.71      0.70       322
+
+accuracy: 0.714285714286
+
+***************Results of GradientBoostingClassifie******************
+                   precision    recall  f1-score   support
+
+     Ariel Sharon       0.27      0.23      0.25        13
+     Colin Powell       0.76      0.63      0.69        60
+  Donald Rumsfeld       0.64      0.67      0.65        27
+    George W Bush       0.77      0.84      0.81       146
+Gerhard Schroeder       0.50      0.48      0.49        25
+      Hugo Chavez       0.24      0.27      0.25        15
+       Tony Blair       0.52      0.47      0.49        36
+
+      avg / total       0.66      0.67      0.66       322
+
+accuracy: 0.667701863354
+
